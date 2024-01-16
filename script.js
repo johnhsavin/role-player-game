@@ -59,6 +59,12 @@ const locations = [
         text: "You enter the cave. You see some monsters."
     },
     {
+        name: "fight",
+        "button text": ["Attack", "Dodge", "Run"],
+        "button functions": [attack, dodge, goTown],
+        text: 'You are fighting a monster.',
+      },
+    {
         name: "kill monster",
         "button text": ["Go to town square", "Go to town square", "Go to town square"],
         "button functions": [goTown, goTown, easterEgg],
